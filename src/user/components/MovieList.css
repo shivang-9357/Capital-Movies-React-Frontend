@@ -1,0 +1,21 @@
+.movies-list {
+  transition-duration: 500ms;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-empty {
+  margin-top: 50px;
+  background-color: rgba(39, 39, 39, 0.247);
+}
+
+.card-empty h2{
+  background: linear-gradient(#0d253f,#01b4e4,#90cea1);
+  background-clip:text ;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,11 @@
+.search-bar__area input{
+    text-align: center;
+    background-color: transparent;
+    box-shadow: none;
+    border:none; 
+    font-size: large;
+    font-stretch: 2rem;
+    color: white;
+    width: 500px;
+    height: 50px;
+}
