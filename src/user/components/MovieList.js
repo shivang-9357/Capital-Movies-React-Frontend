@@ -3,6 +3,7 @@ import React from 'react';
 import MovieItem from './MovieItem';
 import Card from '../../shared/components/UIElements/Card';
 import './MovieList.css';
+import ErrorModal from '../../shared/components/UIElements/ErrorModal';
 
 const MovieList = props => {
   if (props.items.length === 0) {
@@ -17,7 +18,7 @@ const MovieList = props => {
 
   return (
     <ul className="movies-list">
-      {props.items.map(movie => (
+      {props.items && props.items.map(movie => (
         <MovieItem
           key={movie.id}
           id={movie.id}

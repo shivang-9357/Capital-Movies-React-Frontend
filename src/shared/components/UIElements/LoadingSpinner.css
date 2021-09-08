@@ -22,18 +22,21 @@
 
 .loading-icon{
   position: relative;
-  animation: loading-icon 2.3s linear infinite;
+  animation: loading-icon 1.5s linear infinite;
 }
 
 @keyframes loading-icon {
   0% {
     transform: scale(0.4) rotate(0deg);
   }
-  50% {
-    transform: scale(0.7) rotate(180deg);
+  33% {
+    transform: scale(0.65) rotate(175deg);
+  }
+  66% {
+    transform: scale(0.7) rotate(270deg);
   }
   100% {
-    transform: scale(0.4) rotate(360deg);
+    transform :scale(0.4) rotate(360deg)
   }
   
 }
